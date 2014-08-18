@@ -206,6 +206,7 @@
                 <executions>
                     <execution>
                         <id>native2ascii-utf8</id>
+						<phase>process-resources</phase>
                         <goals>
                             <goal>native2ascii</goal>
                         </goals>
