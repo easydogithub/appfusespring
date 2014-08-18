@@ -1,7 +1,7 @@
 package org.easydo.webapp.listener;
 
 import junit.framework.TestCase;
-import org.appfuse.Constants;
+import org.easydo.Constants;
 import org.springframework.mock.web.MockServletContext;
 import org.springframework.web.context.ContextLoader;
 import org.springframework.web.context.ContextLoaderListener;

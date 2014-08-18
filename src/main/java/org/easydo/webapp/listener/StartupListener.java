@@ -2,9 +2,9 @@ package org.easydo.webapp.listener;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.Constants;
-import org.appfuse.service.GenericManager;
-import org.appfuse.service.LookupManager;
+import org.easydo.Constants;
+import org.easydo.service.GenericManager;
+import org.easydo.service.LookupManager;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.security.authentication.AuthenticationProvider;

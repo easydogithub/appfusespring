@@ -1,6 +1,6 @@
 package org.easydo.webapp.taglib;
 
-import org.appfuse.model.LabelValue;
+import org.easydo.model.LabelValue;
 import org.displaytag.tags.el.ExpressionEvaluator;
 
 import javax.servlet.jsp.JspException;

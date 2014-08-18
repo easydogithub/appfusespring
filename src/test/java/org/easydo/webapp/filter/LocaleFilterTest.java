@@ -1,7 +1,7 @@
 package org.easydo.webapp.filter;
 
 import junit.framework.TestCase;
-import org.appfuse.Constants;
+import org.easydo.Constants;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.mock.web.MockFilterConfig;
 import org.springframework.mock.web.MockHttpServletRequest;

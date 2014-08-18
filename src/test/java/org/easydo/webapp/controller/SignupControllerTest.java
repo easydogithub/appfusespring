@@ -1,8 +1,8 @@
 package org.easydo.webapp.controller;
 
-import org.appfuse.Constants;
-import org.appfuse.model.Address;
-import org.appfuse.model.User;
+import org.easydo.Constants;
+import org.easydo.model.Address;
+import org.easydo.model.User;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mock.web.MockHttpServletRequest;

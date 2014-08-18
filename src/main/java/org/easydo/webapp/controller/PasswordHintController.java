@@ -2,9 +2,9 @@ package org.easydo.webapp.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.model.User;
-import org.appfuse.service.MailEngine;
-import org.appfuse.service.UserManager;
+import org.easydo.model.User;
+import org.easydo.service.MailEngine;
+import org.easydo.service.UserManager;
 import org.easydo.webapp.util.RequestUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;

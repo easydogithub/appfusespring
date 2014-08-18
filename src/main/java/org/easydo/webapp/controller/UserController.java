@@ -1,8 +1,8 @@
 package org.easydo.webapp.controller;
 
-import org.appfuse.Constants;
-import org.appfuse.dao.SearchException;
-import org.appfuse.service.UserManager;
+import org.easydo.Constants;
+import org.easydo.dao.SearchException;
+import org.easydo.service.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ExtendedModelMap;

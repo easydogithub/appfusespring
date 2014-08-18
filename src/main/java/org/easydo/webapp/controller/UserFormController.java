@@ -7,12 +7,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang.StringUtils;
-import org.appfuse.Constants;
-import org.appfuse.model.Role;
-import org.appfuse.model.User;
-import org.appfuse.service.RoleManager;
-import org.appfuse.service.UserExistsException;
-import org.appfuse.service.UserManager;
+import org.easydo.Constants;
+import org.easydo.model.Role;
+import org.easydo.model.User;
+import org.easydo.service.RoleManager;
+import org.easydo.service.UserExistsException;
+import org.easydo.service.UserManager;
 import org.easydo.webapp.util.RequestUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;

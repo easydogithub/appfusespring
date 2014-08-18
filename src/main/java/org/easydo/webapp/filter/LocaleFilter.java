@@ -1,6 +1,6 @@
 package org.easydo.webapp.filter;
 
-import org.appfuse.Constants;
+import org.easydo.Constants;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
 
