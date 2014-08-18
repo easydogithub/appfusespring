@@ -57,3 +57,12 @@ pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
+
+# For Eclipse
+bin/
+tmp/
+.settings/
+.metadata/
+.classpath
+.project
+.settings/
