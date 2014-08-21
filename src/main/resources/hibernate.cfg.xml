@@ -8,5 +8,6 @@
     <session-factory>
         <mapping class="org.easydo.model.User"/>
         <mapping class="org.easydo.model.Role"/>
+        <mapping class="org.easydo.model.Person"/>
     </session-factory>
 </hibernate-configuration>
