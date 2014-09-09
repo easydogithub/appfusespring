@@ -17,6 +17,9 @@
 	</bean>
 
     <!-- Add new Managers here -->
+    <bean id="personManager" class="org.easydo.service.impl.GenericManagerImpl">
+    	<constructor-arg ref="personDao"/>
+    </bean>
     
     <!-- Configure and Alternative PasswordTokenManager -->
 	<!-- <bean id="passwordTokenManager" class="org.easydo.service.impl.PersistentPasswordTokenManagerImpl" autowire="default" /> -->
