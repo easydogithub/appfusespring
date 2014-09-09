@@ -12,6 +12,9 @@
     <context:component-scan base-package="org.easydo"/>
 
     <!-- Add new DAOs here -->
+	<bean id="personDao" class="org.easydo.dao.hibernate.GenericDaoHibernate">
+		<constructor-arg value="org.easydo.model.Person" />
+	</bean>
 
     <!-- Add new Managers here -->
     
